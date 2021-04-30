@@ -1,0 +1,309 @@
+/*------------------ Start Screen 576px ------------*/
+@media screen and (max-width: 576px)
+{
+    /*------------------ Start and body ------------*/
+    body,
+    html
+    {
+        font-size: 0.7rem;
+        overflow-x: hidden;
+    }
+    /*------------------ End html and body ------------*/
+    /*------------------ Start Navigations ------------*/
+    .navbar
+    {
+        width: 95%;
+    }
+    .navbar .navbar-toggler
+    {
+        background-color: #f1f1f1;
+        border: 2px solid #fff;
+        margin: 5px 0;
+    }
+    .navbar .navbar-collapse
+    {
+        background-color: #0f232e;
+        text-align: center;
+    }
+    .slider-text
+    {
+        margin-top: 30vh;
+    }
+    .slider-text h1
+    {
+        font-size: 2rem;;
+        font-weight: 400;
+    }
+    .slider-text .caption-animation h2::after
+    {
+        font-size: 0.8rem;
+    }
+    /*------------------ End Navigations ------------*/
+    /*------------------ Start services ------------*/
+    .about .skill-mf
+    {
+        margin: 15px 0;
+        font-size: 1.5rem;
+    }
+    .services .card .fas,
+    .services .card .far
+    {
+        width: 12%;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    /*------------------ End services ------------*/
+    /*------------------ Start section-counter ------------*/
+    .section-counter .counter
+    {
+        margin: 8px 0;
+    }
+    .section-counter .counter .counter-body h5
+    {
+        font-size: 1.2rem;
+    }
+    /*------------------ End section-counter ------------*/
+    /*------------------ Start portfolio ------------*/
+    .portfolio .card{margin-bottom: 0}
+    .portfolio .card .card-body .w-more h5
+    {
+        font-size: 1.8rem;
+        margin: 8px 0;
+    }
+    .portfolio .card .card-body .w-more p
+    {
+        font-size: 1rem;
+    }
+    .portfolio .card .card-body .w-like .fas
+    {
+        position: absolute;
+        top: -35px;
+        left: 90%;
+    }
+    .portfolio .card .img-list:hover
+    {
+        transform: scale(1.03);
+    }
+    /*------------------ End portfolio ------------*/
+    /*------------------ Start blog ------------*/
+    .blog .card
+    {
+        position: relative;
+        margin-bottom: 15px;
+    }
+    .blog .card .card-body button
+    {
+        position: absolute;
+        top: 62%;
+        left: 45%;
+    }
+    .blog .card .card-footer img
+    {
+        width: 10% !important;
+        border-radius: 50%;
+    }
+    .blog .card .card-footer
+    {
+        position: relative;
+    }
+    .blog .card .card-footer small
+    {
+        font-size: 1.1rem;
+        margin-left: 10px;
+    }
+    .blog .card .card-footer .text-muted
+    {
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        font-size: 1.3rem;
+    }
+    .blog .blog-title p::before
+    {
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 5px;
+        background-color: #0078ff;
+        bottom: 0;
+        left: 49%;
+    }
+    /*------------------ End blog ------------*/
+    /*------------------ Start contact ------------*/
+    .contact
+    {
+        height: 100vh;
+        border-radius: 0;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    }
+    .contact .container
+    {
+        max-width: 425px;
+    }
+    .contact .right-contact .contact-icons li i{
+        margin-right: 30px;
+        padding: 7px;
+        font-size: 1.4rem;
+        width: 30px;
+        height: 30px;
+        justify-items: center;
+        border-radius: 50%;
+        box-shadow: 0 0 0 6px #0078ff;
+    }
+    /*------------------ End contact ------------*/
+
+
+}
+/*------------------ End Screen 576px ------------*/
+
+/*------------------ Start Screen 768px ------------*/
+@media screen and (max-width: 768px)
+{
+    /*------------------ Start and body ------------*/
+    body,
+    html
+    {
+        font-size: 0.9rem;
+    }
+    /*------------------ End html and body ------------*/
+    /*------------------ Start Navigations ------------*/
+    .navbar
+    {
+        width: 95%;
+    }
+    .navbar .navbar-toggler
+    {
+        background-color: #f1f1f1;
+        border: 2px solid #fff;
+        margin: 5px 0;
+    }
+    .navbar .navbar-collapse
+    {
+        background-color: #0f232e;
+        text-align: center;
+    }
+    .slider-text h1
+    {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .slider-text .caption-animation h2::after
+    {
+        font-size: 1rem;
+    }
+    /*------------------ End Navigations ------------*/
+    /*------------------ Start about ------------*/
+    .about .skill-mf
+    {
+        margin: 15px 0;
+        font-size: 1.5rem;
+    }
+    /*------------------ End about ------------*/
+    /*------------------ Start section-counter ------------*/
+    .services .card .fas,
+    .services .card .far
+    {
+        width: 10%;
+        font-size: 3rem;
+        line-height: 1.55;
+    }
+    /*------------------ Start Navigations ------------*/
+    .section-counter .counter
+    {
+        margin: 8px 0;
+    }
+    .section-counter .counter .counter-body h5
+    {
+        font-size: 1.2rem;
+    }
+    /*------------------ End section-counter ------------*/
+    /*------------------ Start portfolio ------------*/
+    .portfolio .card{margin-bottom: 0}
+    .portfolio .card .card-body .w-more h5
+    {
+        font-size: 1.6rem;
+        margin: 8px 0;
+    }
+    .portfolio .card .card-body .w-more p
+    {
+        font-size: 0.9rem;
+    }
+    .portfolio .card .card-body .w-like .fas
+    {
+        position: absolute;
+        top: 25px;
+        left: 130%;
+    }
+    .portfolio .card .img-list:hover
+    {
+        transform: scale(1.05);
+    }
+    /*------------------ End portfolio ------------*/
+    /*------------------ Start blog ------------*/
+    .blog .card
+    {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .blog .card .card-body button
+    {
+        position: absolute;
+        top: 71%;
+        left: 45%;
+    }
+    .blog .card .card-footer img
+    {
+        width: 10% !important;
+        border-radius: 50%;
+    }
+    .blog .card .card-footer
+    {
+        position: relative;
+    }
+    .blog .card .card-footer small
+    {
+        font-size: 1.1rem;
+        margin-left: 10px;
+    }
+    .blog .card .card-footer .text-muted
+    {
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        font-size: 1.3rem;
+    }
+    .blog .blog-title p::before
+    {
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 5px;
+        background-color: #0078ff;
+        bottom: 0;
+        left: 49%;
+    }
+    /*------------------ End blog ------------*/
+    /*------------------ Start contact ------------*/
+    .contact
+    {
+        height: 120vh;
+        border-radius: 0;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    }
+    .contact .container
+    {
+        max-width: 630px;
+    }
+    .contact .right-contact .contact-icons li i{
+        margin-right: 30px;
+        padding: 7px;
+        font-size: 1.4rem;
+        width: 30px;
+        height: 30px;
+        justify-items: center;
+        border-radius: 50%;
+        box-shadow: 0 0 0 6px #0078ff;
+    }
+    /*------------------ End contact ------------*/
+}
+/*------------------ End Screen 768px ------------*/

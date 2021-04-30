@@ -1,0 +1,201 @@
+.header-inner {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.navbar {
+    margin: 10px auto;
+}
+.navbar .navbar-brand,
+.nav-item .nav-link {
+    color: #000;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.header-inner
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+}
+.carousel {
+    position: relative;
+}
+.carousel .carousel-inner img {
+    width: 100vw;
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 35vh;
+}
+
+.carousel-caption h2 {
+    position: relative;
+    font-size: 4rem;
+    font-weight: 900;
+    color: #1b1e21;
+    animation: fadeInLeft 2s;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(110vw);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#Team .all /* add section*/
+
+{
+    overflow: hidden;
+}
+#Team .all-member .member .layer
+{
+    width: 100%;
+    background: rgba(242, 84, 84, 0.85);
+    top: 5%;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    opacity:0;
+    transition: all 0.3s;
+    color: white;
+}
+#Team .all-member:hover .layer
+
+{
+    opacity: 1;
+    top: 0;
+
+}
+
+#Team .all-member:hover img
+{
+    transform: scale(1.1);
+}
+#Team .member
+{
+    overflow: hidden;
+    border-radius: 3px;
+
+}
+#Team .member img
+{
+    transition: all 0.3s;
+
+}
+#Team .all-member h5
+{
+    font-weight: 600;
+    font-size:16px ;
+line-height: 20px;
+color: #282828; 
+transition: all 0.3s;
+
+}
+#Team .all-member:hover h5
+{
+    color: #f25454    ;
+}
+#Team .all-member p
+{
+    
+    font-weight: 400;
+    font-size:14px ;
+line-height: 25px;
+color: #666666; 
+}
+.line-head
+{
+    margin-top: 20px;
+    width: 3%;
+    background-color: black;
+    transition: all .3s;
+}
+
+.addres p
+{
+    font-weight: 400;
+    font-size:18px ;
+line-height: 25px;
+color: #999999; 
+}
+.addres:hover .line-head
+
+{
+    width: 5%;
+}
+.head  h2
+{
+    font-weight: 700;
+    font-size:38px    ;
+line-height: 38px;
+color: #282828;
+z-index: 32;
+}
+.head h1
+{
+    font-size: 5rem;
+    color: #F1F1F1;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 38px;
+
+}
+.setting
+{
+    background-color: #1f2528;
+    padding: 8px;
+    position: fixed;
+    left: 0;
+    top: 20%;
+    width: 39px;
+    height: 39px;
+    z-index: 10;
+    transition: all 0.3s;
+}
+.setting a
+{
+    color: white;
+
+}
+.setting:hover
+{
+    background-color: #434343
+    ;
+}
+
+
+
+ .down .btn
+{
+    background-color: #f25454;
+    color: #fff;
+    border-radius: 3px;
+    padding: 18px 30px;
+    line-height: 1;
+    font-weight: 700;
+    transition: all 0.1s ease-in;
+
+}
+ .down:hover .btn
+{
+    background-color: #F38383;
+}
+.idea h3
+{
+    
+    font-weight: 400;
+    font-size:32px ;
+line-height: 50px;
+color: #282828; 
+}
